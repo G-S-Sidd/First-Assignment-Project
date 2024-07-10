@@ -29,7 +29,14 @@ p{
     margin-top: 24px;
     margin-bottom: 48px;
 }
-
+.learn-btn{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    text-decoration-line: underline;
+}
 
 /* The First Part  */
 .header{
@@ -37,11 +44,6 @@ p{
     height: 652px;
     margin: 0 auto;
     background-image: url('../assets/Hero-bg.png');
-    /* left: 0;
-    right: 0;
-    top: 131px;
-    bottom: 4462px; */
-    border: 8px solid red;
 }
 
 .banner{
@@ -54,7 +56,6 @@ p{
     padding-left: 221px;
     padding-right: 221px;
     padding-top: 26px;
-    border: 8px solid red;
 }
 .banner-content{
     text-align: center;
@@ -78,18 +79,28 @@ p{
     width: 240.28px;
     height: 240px;
 }
-
+.btn{
+    padding: 21px 24px 21px 24px;
+    margin: 32px 0px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 /* The Second Part     */
 .second-part{
     width: 1140px;
     height: 1395px;
-    margin: 72px 152px 0px 148px;
-    border: 5px solid blue;
+    margin: 74px 152px 0px 148px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 16px;
-    background-color: rgba(13, 19, 33, 0.02);
+    background: rgba(13, 19, 33, 0.02);
 }
 
 /* Boxes Inside */
@@ -97,12 +108,10 @@ p{
     width: 946px;
     height: 336px; 
     padding: 48px;
-    margin: 32px 0px;
+    margin: 48px 0px;
     display: flex;
-    border: 8px solid black;
     border-radius: 16px;
-    background: linear-gradient(90.00deg rgb(255, 255, 255)
-    rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .inside-elements{
     width: 477px;
@@ -110,7 +119,6 @@ p{
     margin: 0px 10px;
     display: flex;
     flex-direction: column;
-    border: 3px solid rgb(194, 30, 30);
 }
 .scnd-boxes-titles{
     width: 390px;
@@ -126,6 +134,15 @@ p{
     margin: 16px 0px;
     text-align: left;
 }
+.scnds-btn{
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
 .diff-box{ 
     width: 946px;
     height: 336px; 
@@ -133,10 +150,8 @@ p{
     margin: 32px 0px;
     display: flex;
     flex-direction: row;
-    border: 8px solid black;
     border-radius: 16px;
-    background: linear-gradient(90.00deg rgb(255, 255, 255)
-    rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .inside-elements-diff{
     width: 477px;
@@ -144,7 +159,6 @@ p{
     margin: 0px 32px;
     display: flex;
     flex-direction: column;
-    border: 3px solid rgb(194, 30, 30);
 }
 
 /* The Third Part */
@@ -152,7 +166,6 @@ p{
     width: 1140px;
     height: 777px;
     margin: 88px 152px 0px 148px;
-    border: 5px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,7 +181,11 @@ p{
     display: flex;
     flex-direction: column;
 }
-
+.video{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
 
 /* Forth Part  */
 .forth-part{
@@ -176,7 +193,6 @@ p{
     height: 463px;
     margin: 111px 150px 111px 150px;
     padding: 0px;
-    border: 5px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,7 +205,7 @@ p{
     flex-direction: row;
     align-items: center;
 }
-.forth-first{
+.forth-boxes{
     width: 364px;
     height: 300px;
     padding: 40px;
@@ -199,6 +215,12 @@ p{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+.scnd-bgc{
+    background: rgba(0, 76, 232, 0.05);
+}
+.third-bgc{
+    background: rgba(255, 223, 0, 0.05);
 }
 .logos{
     width: 56px;
@@ -224,7 +246,6 @@ p{
     width: 1140px;
     height: 871px;
     margin: 111px 150px 111px 150px;
-    border: 5px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -298,4 +319,45 @@ p{
     flex-direction: column;
     margin-left: 24px;
     align-items: flex-start;
+}
+
+/* Sixth Part */
+.sixth-part{
+    width: 1140px;
+    height: 314px;
+    margin: 41px 150px 179px 150px;
+    padding: 64px 48px;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 10px solid red;
+}
+.button{
+    width: 548px;
+height: 57px;
+box-sizing: border-box;
+}
+
+/* Footer Part */
+.footer{
+    width: 1440px;
+    height: 100px;  
+    margin-top: 79px;
+    margin-left: 0px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    flex-direction: column;
+}
+.footer-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 150px 32px 150px;
+}
+.last-links{
+    margin-left: 982.99px;
+    column-gap: 24px;
 }
